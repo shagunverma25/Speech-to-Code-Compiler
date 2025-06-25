@@ -1,0 +1,85 @@
+.App {
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  background: linear-gradient(to bottom right, #f0f4f8, #d9e4f5);
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.controls {
+  margin: 20px 0;
+}
+
+select {
+  font-size: 16px;
+  padding: 8px 12px;
+  margin-left: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button.stop {
+  background-color: #f44336;
+}
+
+button.stop:hover {
+  background-color: #d32f2f;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.card {
+  background-color: #ffffff;
+  margin: 25px auto;
+  padding: 20px;
+  max-width: 800px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  text-align: left;
+}
+
+.card h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+pre {
+  background-color: #f4f4f4;
+  padding: 15px;
+  border-radius: 8px;
+  overflow-x: auto;
+  white-space: pre-wrap;
+}
+
+.download-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 16px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.download-btn:hover {
+  background-color: #0056b3;
+}
